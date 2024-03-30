@@ -1,11 +1,12 @@
 # Personal portfolio website with with Next.js, Three.js, and Tailwind CSS 🔥
 
-
-For Demo checkout following link👇: <br />
-[Nextjs Creative Portfolio Website Demo](https://portfolio-git-main-ubaish01.vercel.app//) <br />
+For Live checkout following link👇: <br />
+[Live](https://portfolio-git-main-ubaish01.vercel.app//) <br />
 
 ---
+
 # ⭐DO NOT FORGET TO STAR THIS REPO⭐
+
 ---
 
 ## Resources Used in This Project
@@ -36,7 +37,7 @@ For Demo checkout following link👇: <br />
 - Emails using [Emailjs](https://www.emailjs.com/) <br />
 - Convert 3d models to JSX using [Gltf JSX](https://github.com/pmndrs/gltfjsx)
 
-#### Audio 
+#### Audio
 
 - Music by <a href="https://pixabay.com/users/shidenbeatsmusic-25676252/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Shiden Beats Music</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20772">Pixabay</a>
 
