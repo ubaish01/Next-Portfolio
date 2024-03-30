@@ -1,8 +1,6 @@
 # Personal portfolio website with with Next.js, Three.js, and Tailwind CSS 🔥
 
-For Live checkout following link👇: <br />
-[Live](https://portfolio-git-main-ubaish01.vercel.app//) <br />
-
+To see the running project click [Here](https://next-portfolio-ubaish01.vercel.app/) : <br />
 ---
 
 # ⭐DO NOT FORGET TO STAR THIS REPO⭐

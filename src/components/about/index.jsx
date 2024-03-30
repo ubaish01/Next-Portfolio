@@ -3,9 +3,10 @@ import ItemLayout from "./ItemLayout";
 import Link from "next/link";
 import getExperience from "@/helper/getExperience";
 import { projectsData } from "@/app/data";
+import GitHubCalendar from 'react-github-calendar';
 
 const GITHUB_USER_NAME = 'ubaish01'
-const FEATURE_REPO_NAME = 'The-Code-School'
+const FEATURE_REPO_NAME = 'Next-Portfolio'
 
 const AboutDetails = () => {
   return (
@@ -91,6 +92,18 @@ const AboutDetails = () => {
 
         </ItemLayout>
 
+
+        <ItemLayout className={"col-span-full !justify-start !gap-0 flex flex-col md:col-span-8 !p-8"}>
+          <h1 className="font-semibold capitalize w-full text-left text-2xl text-accent sm:text-3xl" >achievements</h1>
+          <div className="w-full flex gap-2 flex-col items-start text-xl" >
+            <div>1. AIR 98 in Coding Ninja’s Weekend Contest among 3k+ participants</div>
+            <div>1. Institute rank 1 at gfg coding portal among 1500+ students</div>
+            <div>2. 1550+ Leetcode ratings</div>
+            <div>3. First runner up SIH 2022</div>
+            <div>4. 500+ Dsa problems solved</div>
+          </div>
+        </ItemLayout>
+
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
@@ -102,20 +115,13 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto"
-            src={`https://github-readme-stats.vercel.app/api?username=${GITHUB_USER_NAME}&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
+
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="Ubaish"
+            src={`https://skillicons.dev/icons?i=html,css,js,tailwind,bootstrap,react,next,vite,npm,yarn,nodejs,expressjs,mongodb,postgres,prisma,babel,git,github,gitlab,vercel,netlify,postman,linux,vscode,c,cpp,python`}
+            alt="skills"
             loading="lazy"
           />
         </ItemLayout>
@@ -124,7 +130,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`https://github-readme-streak-stats.herokuapp.com?user=${GITHUB_USER_NAME}&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
+            alt="ubaish"
             loading="lazy"
           />
         </ItemLayout>
@@ -138,11 +144,24 @@ const AboutDetails = () => {
             <img
               className="w-full h-auto"
               src={`https://github-readme-stats.vercel.app/api/pin/?username=${GITHUB_USER_NAME}&repo=${FEATURE_REPO_NAME}&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
+              alt="ubaish"
               loading="lazy"
             />
           </Link>
         </ItemLayout>
+
+        <ItemLayout className={"col-span-full flex-col"}>
+          <h1 className="font-semibold capitalize w-full text-left text-2xl pl-6 sm:text-3xl" >Days i <span className="text-accent" >code</span></h1>
+          <GitHubCalendar
+            username="ubaish01"
+            blockMargin={8}
+            colorScheme="dark"
+            theme={{ light: ["#000", "#581c87", "#581c87", "#581c87", "#581c87"], dark: ["#000", "#FEFE5B", "#FEFE5B", "#FEFE5B", "#FEFE5B"] }}
+            showWeekdayLabels
+            hideColorLegend
+          />
+        </ItemLayout>
+
       </div>
     </section>
   );
