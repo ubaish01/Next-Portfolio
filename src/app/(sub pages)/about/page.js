@@ -1,16 +1,17 @@
-import Image from "next/image";
-import bg from "../../../../public/background/aurora.png";
+'use client'
 import RenderModel from "@/components/RenderModel";
-// import HatModel from "@/components/models/HatModel";
-import AboutDetails from "@/components/about";
 import dynamic from "next/dynamic";
+import AboutDetails from "@/components/about";
+// import HatModel from "@/components/models/HatModel";
+import bg from "../../../../public/background/aurora.png";
+import Image from "next/image";
 const HatModel = dynamic(() => import("@/components/models/HatModel"), {
   ssr: false,
 });
 
-export const metadata = {
-  title: "About",
-};
+// export const metadata = {
+//   title: "About",
+// };
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
         </div>
       </div>
 
-      <AboutDetails />
+      {/* <AboutDetails /> */}
     </>
   );
 }
