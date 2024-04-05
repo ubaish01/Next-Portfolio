@@ -32,7 +32,7 @@ const newSchema = new mongoose.Schema({
         type: String
     }],
     description: [{ type: String }]
-});
+}, { timestamps: true });
 
 mongoose.models = {};
 

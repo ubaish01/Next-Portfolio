@@ -1,4 +1,5 @@
 
+import { connectDB } from "@/connection/db";
 import { Project } from "@/models/project";
 import { NextResponse } from "next/server";
 
@@ -19,7 +20,7 @@ export const POST = async (req) => {
 }
 
 export const GET = async (req) => {
-    
+    connectDB();
     const projects = await Project.find();
 
     return NextResponse.json({
