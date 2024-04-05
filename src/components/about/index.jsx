@@ -150,17 +150,17 @@ const AboutDetails = () => {
           </Link>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full flex-col"}>
+        {/* <ItemLayout className={"col-span-full flex-col"}>
           <h1 className="font-semibold capitalize w-full text-left text-2xl pl-6 sm:text-3xl" >Days i <span className="text-accent" >code</span></h1>
           <GitHubCalendar
             username="ubaish01"
             blockMargin={8}
             colorScheme="dark"
             theme={{ light: ["#000", "#581c87", "#581c87", "#581c87", "#581c87"], dark: ["#000", "#FEFE5B", "#FEFE5B", "#FEFE5B", "#FEFE5B"] }}
-            showWeekdayLabels
-            hideColorLegend
+            showWeekdayLabels={true}
+            hideColorLegend={true}
           />
-        </ItemLayout>
+        </ItemLayout> */}
 
       </div>
     </section>
