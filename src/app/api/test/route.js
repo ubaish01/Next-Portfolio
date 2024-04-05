@@ -1,5 +1,7 @@
-export const GET = (req, res) => {
-    return res.status(200).json({
+import { NextResponse } from "next/server"
+
+export const GET = (req) => {
+    return NextResponse.json({
         succcess: true,
         message: "seems to be fine"
     })
