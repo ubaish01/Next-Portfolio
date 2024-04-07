@@ -1,91 +1,77 @@
-/*
-Websites:
-
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
-- https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
-- https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
-
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
-*/
+import posterMemocd from '../../public/memo.png'
 
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Memocd",
+    brief: "Earn money by organizing trips for people",
+    date: "2023-04-17",
+    link: "https://memocd.com",
+    github: null,
+    poster: posterMemocd,
+    points: [
+      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
+      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
+      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
+      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
+      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
+      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
+      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
+    ]
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "Code school",
+    brief: "Learn coding a better way",
+    date: "2023-06-01",
+    link: null,
+    github: 'http://github.com/ubaish01/the-code-school',
+    poster: posterMemocd,
+    points: [
+      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
+      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
+      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
+      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
+      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
+      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
+      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
+    ]
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "Code school",
+    brief: "Learn coding a better way",
+    date: "2023-06-01",
+    link: null,
+    github: 'http://github.com/ubaish01/the-code-school',
+    poster: posterMemocd,
+    points: [
+      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
+      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
+      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
+      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
+      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
+      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
+      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
+    ]
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
-  },
-  {
-    id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
-  },
-  {
-    id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "Code school",
+    brief: "Learn coding a better way",
+    date: "2023-06-01",
+    link: null,
+    github: 'http://github.com/ubaish01/the-code-school',
+    poster: posterMemocd,
+    points: [
+      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
+      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
+      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
+      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
+      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
+      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
+      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
+    ]
   },
 ];
 
@@ -120,4 +106,78 @@ export const BtnList = [
   },
 ];
 
+const skills = [
+  "html",
+  "css",
+  "js",
+  "tailwind",
+  "bootstrap",
+  "react",
+  "next",
+  "vite",
+  "npm",
+  "yarn",
+  "nodejs",
+  "expressjs",
+  "mongodb",
+  "postgres",
+  "prisma",
+  "babel",
+  "git",
+  "github",
+  "gitlab",
+  "vercel",
+  "netlify",
+  "postman",
+  "linux",
+  "vscode",
+  "c",
+  "cpp",
+  "python"
+]
 
+const achievements = [
+  "AIR 98 in Coding Ninja’s Weekend Contest among 3k+ participants",
+  "Institute rank 1 at gfg coding portal among 1500+ students",
+  "1550+ Leetcode ratings",
+  "First runner up SIH 2022",
+  "500+ Dsa problems solved",
+]
+
+const experience = [
+  {
+    company: "Oodles Technologies",
+    designation: "full stack developer",
+    from: '2023-04-17',
+    to: "present",
+    points: [
+      "Building applications using a diverse tech stack: React, Node, Express, JavaScript, MongoDB, and Python",
+      "Responsible for gathering requirements, providing optimal solutions, and ensuring client satisfaction",
+      "Ensuring continuous improvement and meeting client needs through effective communication and understanding.",
+      "Achieved 30% performance improvement, enhancing user experience through optimizations and scalability",
+    ]
+  },
+  {
+    company: "Money Mileage Investments",
+    designation: "sde intern",
+    from: '2022-10-03',
+    to: '2023-01-02',
+    points: [
+      " Played a key role in developing Money Mileage's Mobile Application ,helping the team to reach 5,000 downloads",
+      "Collaborated closely with the backend team to ensure seamless frontend-backend communication",
+      "Developed frontend pages with intricate logic, providing users a seamless experience",
+      "Actively resolved reported bugs, improved overall app quality and increased the ratings to 4.5 on play store",
+    ]
+  },
+]
+
+export const about = {
+  name: "Ubaish Malik",
+  about: `Embark on a mystical journey into the realm of web development, where I conjure full-stack applications with boundless creativity and expertise. With a versatile mastery of the arcane arts, I craft portals (websites) that seamlessly connect users across the digital cosmos.
+  In the ancient arts of the Jamstack, I find strength, crafting portals imbued with speed, security, and dynamism. With an eye for design and a flair for innovation, I weave digital experiences that captivate the senses and push the boundaries of what's possible.  
+  Join me on this mystical odyssey as we shape the digital landscape together.Let's infuse our creations with innovation, creativity, and boundless curiosity. `,
+  projects: projectsData.length,
+  experience,
+  achievements,
+  skills
+}

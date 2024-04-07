@@ -5,6 +5,7 @@ import AboutDetails from "@/components/about";
 // import HatModel from "@/components/models/HatModel";
 import bg from "../../../../public/background/aurora.png";
 import Image from "next/image";
+import { about } from "@/app/data";
 const HatModel = dynamic(() => import("@/components/models/HatModel"), {
   ssr: false,
 });
@@ -33,7 +34,7 @@ export default function Home() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold text-nowrap  text-5xl xs:text-7xl sm:text-8xl  lg:text-9xl text-accent">
-            Ubaish Malik
+            {about.name}
           </h1>
           <p className="font-light text-foreground text-lg">
             Meet the wizard behind this portfolio
@@ -41,7 +42,7 @@ export default function Home() {
         </div>
       </div>
 
-      <AboutDetails />
+      <AboutDetails data={about} />
     </>
   );
 }
