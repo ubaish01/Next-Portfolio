@@ -1,6 +1,42 @@
 import posterMemocd from '../../public/memo.png'
+import posterShoorah from '../../public/shoorah.png'
+import posterKaboodle from '../../public/kaboodle.png'
+import posterAsiclab from '../../public/asiclab.png'
+import posterChat from '../../public/chitchat.png'
 
 export const projectsData = [
+
+  {
+    id: 2,
+    name: "Shoorah",
+    brief: "Transform the way you feel",
+    date: "2023-09-01",
+    link: "https://shoorah.io",
+    github: null,
+    poster: posterShoorah,
+    points: [
+      "Contributed to the creation of Shoorah, a dynamic and inclusive wellbeing application aimed at fostering mental health support and overall wellness. The app offers a diverse array of wellness tools to empower users in their journey towards mental health and personal growth.",
+      "Played an integral role within the backend team at Shoorah.io, leveraging Node.js to develop the new admin dashboard. This involved architecting and implementing robust backend functionalities to ensure seamless management and administration of the platform.",
+      "Implemented innovative features for users to input their daily moods, enabling the generation of comprehensive weekly and monthly reports. Leveraging data aggregation and visualization techniques, these reports provide valuable insights into user sentiment and mental wellbeing trends, empowering individuals to track their progress and make informed decisions about their mental health journey.",
+      "Designed and implemented backend solutions with a focus on scalability, performance, and reliability. Leveraged best practices in Node.js development to ensure optimal system efficiency and responsiveness, even under high traffic loads.",
+    ]
+  },
+  {
+    id: 4,
+    name: "Asic Labs",
+    brief: "One stop portal to improve your skills",
+    date: "2024-02-01",
+    link: "https://siliconminds.oodleslab.com/",
+    github: null,
+    poster: posterAsiclab,
+    points: [
+      " Led the development of ASIClabs, an innovative educational platform tailored to the needs of digital design enthusiasts, specifically focusing on Verilog coding. As the sole developer behind the web application, I conceptualized and built ASIClabs to provide a seamless and enriching learning experience in the complex field of digital design.",
+      " Integrated a sophisticated Verilog compiler within ASIClabs, allowing users to compile their code and execute a predefined set of test cases. Similar to platforms like LeetCode, ASIClabs provides users with real-time feedback on their Verilog code, indicating the number of test cases passed and failed, facilitating rapid learning and skill development.",
+      " Implemented a streamlined content management system within ASIClabs, allowing administrators to effortlessly create and manage courses, lectures, problem statements, and testimonials. By facilitating easy upload and organization of educational materials, ASIClabs ensures a curated and structured learning experience for users.",
+      "Designed and implemented an intuitive admin dashboard, providing administrators with comprehensive analytical insights into platform performance and user engagement. Through interactive charts and visualizations, administrators can track key metrics such as monthly sales, subscriber growth, daily visits, course popularity, lecture views, and content engagement, enabling data-driven decision-making and strategic planning.",
+      "Leveraged an advanced tech stack comprising React, TypeScript, MongoDB, Node.js, Express, and Tailwind CSS to architect and develop ASIClabs from scratch. By employing industry best practices and scalable architecture design, I ensured ASIClabs was equipped to handle current user demands while remaining adaptable for future growth and expansion.",
+    ]
+  },
   {
     id: 1,
     name: "Memocd",
@@ -20,63 +56,40 @@ export const projectsData = [
     ]
   },
   {
-    id: 2,
-    name: "Code school",
-    brief: "Learn coding a better way",
-    date: "2023-06-01",
-    link: null,
-    github: 'http://github.com/ubaish01/the-code-school',
-    poster: posterMemocd,
-    points: [
-      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
-      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
-      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
-      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
-      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
-      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
-      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
-    ]
-  },
-  {
     id: 3,
-    name: "Code school",
-    brief: "Learn coding a better way",
-    date: "2023-06-01",
-    link: null,
-    github: 'http://github.com/ubaish01/the-code-school',
-    poster: posterMemocd,
+    name: "Kaboodle",
+    brief: "We got everything you need.",
+    date: "2023-12-01",
+    link: "https://kaboodleai.com/",
+    github: null,
+    poster: posterKaboodle,
     points: [
-      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
-      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
-      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
-      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
-      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
-      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
-      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
+      "Developed KaboodleAi, a cutting-edge AI-powered platform that leverages state-of-the-art AI models such as GPT-4, Mistral, Perplexity, Cohere, DreamStudio, DALLE-3, and LLAMA-2. This platform empowers users with AI-driven capabilities to generate text, images, code, and more.",
+      " Advocated for a user-centric design approach throughout the development of KaboodleAi, prioritizing features such as user history tracking and dynamic text formatting to enhance the user experience. By understanding the client's target audience and user needs, I ensured KaboodleAi provided an intuitive and engaging platform for creative expression and exploration.",
+      "Led the seamless integration of multiple AI models into KaboodleAi's backend infrastructure, ensuring smooth functionality and performance. My expertise in developing robust APIs and handling raw data responses enabled the client to leverage AI capabilities effortlessly, empowering users with powerful tools for text generation, image synthesis, and more.",
+      "Collaborated closely with the client to drive continuous improvement and optimization of KaboodleAi. By remaining responsive to client feedback and industry trends, I facilitated ongoing enhancements to the platform, ensuring it remained a valuable asset that evolved with the client's needs and technological advancements.",
     ]
   },
   {
-    id: 4,
-    name: "Code school",
-    brief: "Learn coding a better way",
-    date: "2023-06-01",
+    id: 5,
+    name: "Chit-O-Chat",
+    brief: "Chat in real time",
+    date: "2023-02-01",
     link: null,
-    github: 'http://github.com/ubaish01/the-code-school',
-    poster: posterMemocd,
+    github: "https://github.com/ubaish01/chit-o-chat",
+    poster: posterChat,
     points: [
-      "MemoCD (memo.) is a platform based in DRC(Africa) where people can create places to organize trips (outings) and create virtual galleries to exhibit and sell their artworks",
-      "The platform fetch posts using a crawler(related to travel) from different social networks  at a time interval and shows it on the home page to let user's tag partners asking for a trip",
-      "Platform has 4 different user roles : User, Partner, Moderator, Admin with different set of features",
-      "User : Create/buy artwork, Book trip, tag partner, report user/trip/artwork, apply to become partner",
-      "Partner : Collaborate in artworks, Create place/trip, Manage artwork and trips from the dashboard",
-      "Moderator : Manage reports,Remove spam artworks/trips, payout earnings and manage refunds",
-      "Admin : All the features that a moderator and partner have with aditional feature of removing users managing hashtags to fetch posts from social network and visualized dashboard showing the analytics of the platform"
+      "Developed Chit-o-Chat, a real-time chat application enabling users to register, chat one-on-one, and create group chats.",
+      "Utilized React for frontend, Node.js and Express for backend, MongoDB for database management, and Socket.IO for real-time communication.",
+      "Implemented user registration/authentication functionality and intuitive chat interfaces.",
+      "Enabled users to create and manage group chats, fostering collaborative communication.",
+      "Leveraged Socket.IO for seamless real-time communication, ensuring instant message delivery and synchronization.",
     ]
   },
 ];
 
 export const BtnList = [
-  { label: "Blogs", link: "/", icon: "home", newTab: false },
+  { label: "Blogs", link: "/blogs", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
