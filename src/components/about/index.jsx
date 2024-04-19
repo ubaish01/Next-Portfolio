@@ -54,7 +54,7 @@ const AboutDetails = () => {
             about.experience?.map((job, index) => (
 
 
-              <div className="flex w-full flex-col gap-2 items-start" >
+              <div key={index} className="flex w-full flex-col gap-2 items-start" >
                 <div className="w-full flex md:flex-row flex-col items-start md:items-center justify-between" >
                   <div className="flex md:flex-row md:items-center flex-col md:gap-2" >
                     <span className="capitalize text-2xl md:text-xl font-semibold text-no" >{job.company}</span>
