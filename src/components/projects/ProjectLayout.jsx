@@ -88,13 +88,13 @@ const ProjectLayout = ({ opened, id, setOpened, name, brief, date, demoLink, pos
                 ?
                 <Link href={link} target="_blank" className="custom-bg space-x-2 p-2 w-full  rounded-md flex items-center justify-center " >
                   <RadioTower />
-                  <p>Demo</p>
+                  <p>Link</p>
                 </Link>
                 :
                 <Tooltip className="bg-black  rounded-md" content="Project is not deployed">
                   <div className="custom-bg-disabled shadow-none space-x-2 p-2 w-full  rounded-md flex items-center justify-center " >
                     <RadioTower />
-                    <p>Demo</p>
+                    <p>Link</p>
                   </div>
                 </Tooltip>
             }
