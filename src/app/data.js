@@ -3,6 +3,7 @@ import posterShoorah from '../../public/shoorah.png'
 import posterKaboodle from '../../public/kaboodle.png'
 import posterAsiclab from '../../public/asiclab.png'
 import posterChat from '../../public/chitchat.png'
+import posterChess from '../../public/chess.png'
 
 export const projectsData = [
 
@@ -11,7 +12,7 @@ export const projectsData = [
     name: "Shoorah",
     brief: "Transform the way you feel",
     date: "2023-09-01",
-    link: "https://shoorah.io",
+    link: "https://apps.apple.com/gb/app/shoorah-mental-health-calm/id1669683359",
     github: null,
     poster: posterShoorah,
     points: [
@@ -23,10 +24,10 @@ export const projectsData = [
   },
   {
     id: 4,
-    name: "Asic Labs",
+    name: "Asic Lab",
     brief: "One stop portal to improve your skills",
     date: "2024-02-01",
-    link: "https://siliconminds.oodleslab.com/",
+    link: "https://asiclab.in/",
     github: null,
     poster: posterAsiclab,
     points: [
@@ -72,6 +73,21 @@ export const projectsData = [
   },
   {
     id: 5,
+    name: "Chess Kings",
+    brief: "(Under Development)",
+    date: "2024-05-20",
+    link: "https://drive.google.com/file/d/1dR-lZJmolAz4sufN4A8WB9NVqOyYoGrm/view?usp=sharing",
+    github: "https://github.com/ubaish01/Chess-King",
+    poster: posterChess,
+    points: [
+      "Developed a real time multiplayer chess game that allows you to play chess anywhere with strangers over the world.",
+      "Utilized React for frontend, Node.js and Express for backend and Socket.IO for real-time communication.",
+      "Leveraged Socket.IO for seamless real-time communication, ensuring instant moves delivery , board state updation and synchronization.",
+      "In future i will add realtime video and audio chat with oppenents, leaderboard and rankings.",
+    ]
+  },
+  {
+    id: 6,
     name: "Chit-O-Chat",
     brief: "Chat in real time",
     date: "2023-02-01",
